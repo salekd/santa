@@ -5,7 +5,7 @@ If you do not want to miss Santa during Christmas, this is the solution for you.
 * use a deep learning model in **Keras** for image recognition,
 * use a serverless function deployed by **OpenFaaS**.
 
-The installation procedure is documented here https://github.com/salekd/santa/wiki
+The documentation for this project can be found here https://github.com/salekd/santa/wiki
 
 ![](https://github.com/salekd/santa/blob/master/data/examples/santa_01.png)
 
