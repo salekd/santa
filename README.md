@@ -9,7 +9,9 @@ The documentation for this project can be found here https://github.com/salekd/s
 
 ![](https://github.com/salekd/santa/blob/master/data/examples/santa_01.png)
 
-The serverless function can be easily integrated into my other project, the Raspberry pi smart security camera. https://github.com/salekd/rpizero_smart_camera3
+The serverless function can be easily integrated into my other project, the Raspberry pi smart security camera.
+In this way, you are for sure not going to miss Santa when he comes during Christmas!
+https://github.com/salekd/rpizero_smart_camera3
 
 The following tutorials by Adrian Rosebrock have been a great source of inspiration for this project:
 * https://www.pyimagesearch.com/2017/12/18/keras-deep-learning-raspberry-pi/
