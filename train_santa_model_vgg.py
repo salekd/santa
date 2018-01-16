@@ -13,7 +13,7 @@ train_data_dir = 'data/train'
 validation_data_dir = 'data/validation'
 nb_train_samples = 300
 nb_validation_samples = 161
-epochs = 2
+epochs = 5
 batch_size = 128
 
 if K.image_data_format() == 'channels_first':
@@ -31,15 +31,6 @@ for layer in vgg16.layers[:17]:
 vgg16.summary()
 
 # Add custom layers.
-#model = Sequential()
-#model.add(Flatten(input_shape=vgg16.layers[-1].output_shape[1:]))
-#model.add(Dense(64))
-#model.add(Activation('relu'))
-#model.add(Dropout(0.5))
-#model.add(Dense(1))
-#model.add(Activation('sigmoid'))
-
-# Add custom layers.
 x = vgg16.output
 x = Flatten()(x)
 x = Dense(64, activation="relu")(x)
@@ -50,7 +41,6 @@ predictions = Dense(1, activation="sigmoid")(x)
 model = Model(input = vgg16.input, output = predictions)
 
 model.compile(loss='binary_crossentropy',
-              #optimizer='rmsprop',
               optimizer=SGD(lr=0.0001, momentum=0.9),
               metrics=['accuracy'])
 
