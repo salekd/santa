@@ -9,7 +9,7 @@ The documentation for this project can be found here https://github.com/salekd/s
 
 ![](https://github.com/salekd/santa/blob/master/data/examples/santa_01.png)
 
-The serverless function can be easily integrated into my other project, the Raspberry pi smart security camera.
+The serverless function can be easily integrated into my other project, the Raspberry Pi smart security camera.
 In this way, you are for sure not going to miss Santa when he comes during Christmas!
 https://github.com/salekd/rpizero_smart_camera3
 
